@@ -32,7 +32,9 @@ If you have Docker installed on your computer, you can build a Docker image from
 To make it easier for us and others to run this Docker image on Binder, we can generate a "badge" link. Use `generate_badge()` to create a badge that can be pasted into this Readme.
 Paste generated code here:
 
-
+ <!-- badges: start -->
+  [![Launch Rstudio Binder](http://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/reproduciblescience/10-containers-pab2163/master?urlpath=rstudio)
+  <!-- badges: end -->
 
 Now add all the files in this directory to your git repository (remember to include the .binder/Dockerfile as well - use `git status` to confirm you got everything) and push to GitHub. Then in your browser go into the Settings of your GitHub repo and make it public, so that it will be visible to Binder.
 

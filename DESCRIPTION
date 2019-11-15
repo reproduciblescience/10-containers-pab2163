@@ -1,0 +1,19 @@
+Type: Compendium
+Package: paulCompendium
+Title: My package brings all the squirrels to the yard
+Version: 0.0.1
+Authors@R: 
+    person(given = "Paul",
+           family = "Bloom",
+           role = c("aut", "cre"),
+           email = "paul.bloom@columbia.edu",
+           comment = structure("YOUR-ORCID-ID", .Names = "ORCID"))
+Description: My super cool compendium of squirrels
+License: What license it uses
+Depends: 
+    rmarkdown,
+    tidyverse,
+    tm,
+    topicmodels
+Encoding: UTF-8
+LazyData: true
